@@ -1,0 +1,125 @@
+* { 
+    /*background-image: linear-gradient(#ff8c1a, #ff9933, #ffa64d, #ffbf80);*/
+    background: #FF6347;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+/* top of page */
+header h1 {
+    padding-top: 75px;
+}
+
+body {
+    text-align: center;
+}
+#time-display{
+    float:right;
+}
+
+#view-display {
+    float:left;
+}
+
+/* buttons */
+
+.button-style {
+    list-style: none;
+    background-color :#b8860b;
+    color: white;
+    border-radius: 7px;
+    width: 175px; 
+    border: none;
+    padding: 5px; 
+    margin: 7px;
+}
+
+.button-style:hover {
+    background-image:linear-gradient(to bottom right, #0000ff, #3333ff, #4d4dff);
+}
+
+/* starting page */
+
+#quiz-title p {
+    font-size: 20px;
+}
+
+#view-display {
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    width: 150px ;
+    height: 20px;   
+}
+
+/* questions */
+
+.question-section {
+padding-top: 200px;
+}
+
+.question-div {
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+section ol {
+list-style: none;
+}
+
+/* bottom of page */
+
+.final-section {
+    display: none;
+}
+
+#result-section {
+    font-size: 25px;
+    padding-top:125px;
+}
+ #result-title {
+     font-size: 35px;
+     font-weight:bold;
+ }
+
+ #enter-initials-line {
+     display: flex;
+     align-items: center;
+     margin-left:450px;
+ }
+
+ .highscore-page {
+    display: none;
+ }
+
+.highscore-li-style {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;        
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    border-style: none;
+    background: #a6a6a6;
+    color: white;
+    border-radius: 7px; 
+    height: 25px;  
+    font-size: 20px;
+    width: 400px;
+    margin-left: 400px;	
+}
+
+#high-score-section h2 {
+    font-size: 35px;
+    margin-right:75px;
+}
+
+#input-box {
+    border-style: none;
+    border-radius: 7px;
+    width: 175px; 
+    background-image: linear-gradient(to bottom right,#1a1a1a, #333333,  #4d4d4d);
+    padding: 5px; 
+    margin-left: 20px;
+}

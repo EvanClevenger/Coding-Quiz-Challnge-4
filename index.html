@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link href = "style.css" rel="stylesheet">
+    <link href="clearHS.js" rel="additional js folder to delete Highscore"
+    <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel = "bootstrap">
+</head>
+<body>
+    
+    <header> 
+        <div>
+           
+            <p><a href="#highscore-section" id="view-display">View High Scores </a> </p>
+        </div>
+        <div>
+            <p id="time-display"></p>
+        </div>
+        <div id="quiz-title">
+            <h1> Coding Quiz Challenge</h1>
+            <p>
+            Answer the following code-related questions within the time limit, You have 60 seconds once you click the "Start Quiz" button.
+            For every incorrect answer, you will be penalized by taking 5 seconds off your total time to finish. Good luck, you've got this!!
+            </p>
+            <button type="button" class="button-style" id="start-btn">Start Quiz!</button>
+        </div>
+        </header>
+
+  
+    <!--Questions-->
+    <section class="question-section" id="question-id"></section>
+            <!--End of quiz section-->
+    <section class="final-section" id="result-section">
+        <p id="result-title">Quiz Complete!</p>
+        <p class="score-initials" id="score"> Your Final Score is:</p>
+        <span id="enter-initials-line">
+        <p class =score-initials id="initials">Enter your initials:</p>
+        <input id="input-box" value="">
+        </span>
+        <button type="button" class="button-style" id="end-btn">Enter Results</button>  
+    </section>
+
+    <!-- highscore section-->
+    <section class="highscore-page" id="high-score-section">
+        <h2> High Scores!</h2> 
+        <ol id="highscore-ol"></ol>
+        <button type="button" class="button-style" id="refresh-btn" onclick= "location.href = https;"https:"//github.com/EvanClevenger/Coding-quiz">Return to Quiz</button>
+        <button type="button" class="button-style" id="clear-data-btn">Clear highscores</button>
+    </section>
+    <!--Script Sources-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
